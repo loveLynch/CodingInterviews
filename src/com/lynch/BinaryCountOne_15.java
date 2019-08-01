@@ -8,7 +8,7 @@ package com.lynch;
  * 如：9 --> 1001 count=2
  * 注意输入为负整数，通过右移位运算会陷入死循环
  **/
-public class BinaryCountOne_15 {
+public class    BinaryCountOne_15 {
 
     /**
      * 1. n&1 判断最低位是不是1
