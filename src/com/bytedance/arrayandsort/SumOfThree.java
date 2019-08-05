@@ -75,8 +75,13 @@ public class SumOfThree {
     private static List<List<Integer>> getArrayCollections2(int[] nums) {
         List<List<Integer>> resultList = new ArrayList<>();
         Arrays.sort(nums);
-        for (int startIndex = 0; startIndex < nums.length - 2; startIndex++) {
+        for (int startIndex = 0; startIndex < nums.length; startIndex++) {
             if (startIndex == 0 || (startIndex > 0 && nums[startIndex] != nums[startIndex - 1])) {
+                //升序排完第一个还是正数，则不可能三数和为0
+                if (nums[startIndex] > 0) break;
+                //去重
+                if (startIndex > 0 && nums[startIndex] == nums[startIndex - 1])
+                    continue;
                 int middleIndex = startIndex + 1;
                 int endIndex = nums.length - 1;
                 while (middleIndex < endIndex) {
@@ -88,9 +93,9 @@ public class SumOfThree {
                         if (!resultList.contains(singleResult))
                             resultList.add(singleResult);
                         //移动下标，找下一组解
-                        while (middleIndex > endIndex && nums[middleIndex] == nums[middleIndex + 1])
+                        while (endIndex > middleIndex && nums[middleIndex] == nums[middleIndex + 1])
                             middleIndex++;
-                        while (middleIndex > endIndex && nums[endIndex] == nums[endIndex - 1])
+                        while (endIndex > middleIndex && nums[endIndex] == nums[endIndex - 1])
                             endIndex--;
                         middleIndex++;
                         endIndex--;
@@ -99,33 +104,6 @@ public class SumOfThree {
                 }
             }
 
-        }
-        return resultList;
-    }
-
-    private static List<List<Integer>> getArrayCollections3(int[] nums) {
-        List<List<Integer>> resultList = new ArrayList<>();
-        int len = nums.length;
-        Arrays.sort(nums);
-        for (int i = 0; i < len; i++) {
-            if (nums[i] > 0) break;                             //简化，如果>0则说明该三数之和不可能为0
-            if (i > 0 && nums[i] == nums[i - 1]) continue;            //去重
-            int target = 0 - nums[i];
-            int l = i + 1, r = len - 1;                          //此处必须对i后面的数字进行筛选，不能重复
-            while (l < r) {
-                List<Integer> list = new ArrayList();
-                if (nums[l] + nums[r] == target) {
-                    list.add(nums[i]);
-                    list.add(nums[l]);
-                    list.add(nums[r]);
-                    resultList.add(list);
-                    while (r > l && nums[l + 1] == nums[l]) l++;          //这个地方改成l-1只会出现一个结果了
-                    while (r > l && nums[r] == nums[r - 1]) r--;
-                    l++;
-                    r--;
-                } else if (nums[l] + nums[r] > target) r--;
-                else l++;
-            }
         }
         return resultList;
     }
