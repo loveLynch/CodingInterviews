@@ -69,7 +69,8 @@ public class MaxIsland {
             grid[i][j] = 0;//标记为0
             int num = 1 + deepSearch(grid, i - 1, j) + deepSearch(grid, i + 1, j) + deepSearch(grid, i, j - 1) + deepSearch(grid, i, j + 1);
             return num;
-        } else
+        } else {
             return 0;
+        }
     }
 }
