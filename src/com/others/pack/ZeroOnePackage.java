@@ -1,4 +1,4 @@
-package com.others;
+package com.others.pack;
 
 /**
  * Created by lynch on 2019-06-04. <br>

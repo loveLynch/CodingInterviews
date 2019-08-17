@@ -1,4 +1,4 @@
-package com.others.psack;
+package com.others.pack.psack;
 
 /**
  * Created by lynch on 2019-06-04. <br>

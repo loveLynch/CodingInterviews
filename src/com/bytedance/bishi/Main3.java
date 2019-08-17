@@ -14,25 +14,41 @@ public class Main3 {
         for (int i = 0; i < N; i++) {
             year[i] = input.nextInt();
         }
-        System.out.println(getMinMoney1(year));
+        System.out.println(getMinMoney(year));
     }
 
 
     private static int getMinMoney(int[] year) {
         int reward = 0;
-        int[] money = new int[year.length];
-        for (int i = 0; i < money.length; i++) {
-            money[i] = 100;
+        int[] moneys = new int[year.length];
+        for (int i = 0; i < moneys.length; i++) {
+            moneys[i] = 100;
         }
+        int decr = 0;
         for (int i = 1; i < year.length; i++) {
-            if (year[i] > year[i - 1])
-                money[i] = money[i - 1] + 100;
-            reward += money[i];
+            if (year[i] > year[i - 1]) {
+                if (decr != 0) {
+                    for (int j = i - 2, k = 1; j >= 0 && k <= decr; j--, k++) {
+                        moneys[j] += 100 * k;
+                    }
+                    decr = 0;
+                } else
+                    moneys[i] = moneys[i - 1] + 100;
+            } else if (year[i] < year[i - 1]) {
+                decr++;
+            }
         }
+        if (decr != 0) {
+            for (int j = moneys.length - 2, k = 1; j >= 0 && k <= decr; j--, k++) {
+                moneys[j] += 100 * k;
+            }
+        }
+        for (int money : moneys)
+            reward += money;
         return reward + 100;
     }
 
-    private static int getMinMoney2(int[] year) {
+    private static int getMinMoney1(int[] year) {
         int reward = 0;
         int[] money = new int[year.length];
         for (int i = 0; i < money.length; i++) {
@@ -49,7 +65,7 @@ public class Main3 {
         return reward;
     }
 
-    private static int getMinMoney1(int[] year) {
+    private static int getMinMoney2(int[] year) {
         int reward = 0;
         int[] money = new int[year.length];
         for (int i = 0; i < year.length; i++) {
@@ -74,4 +90,5 @@ public class Main3 {
         return reward;
 
     }
+
 }

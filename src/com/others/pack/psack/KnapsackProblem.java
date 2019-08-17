@@ -1,4 +1,4 @@
-package com.others.psack;
+package com.others.pack.psack;
 
 import java.util.ArrayList;
 
