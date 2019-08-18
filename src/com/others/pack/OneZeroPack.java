@@ -30,7 +30,7 @@ public class OneZeroPack {
         }
         //则容量为V的背包能够装入物品的最大值为
         int maxValue = dp[N][V];
-        System.out.println("最优装载 " + maxValue);
+        System.out.println("最优装载 "+maxValue);
         //逆推找出装入背包的所有商品的编号
         int j = V;
         String numStr = "";

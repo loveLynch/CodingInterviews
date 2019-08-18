@@ -1,9 +1,9 @@
-package com.others.pack.psack;
+package com.others.pack;
 
 /**
  * Created by lynch on 2019-08-17. <br>
  **/
-public class Complete {
+public class CompletePack {
     /**
      * 第二类背包：完全背包
      * 思路分析：
@@ -36,6 +36,7 @@ public class Complete {
         }
         //则容量为V的背包能够装入物品的最大值为
         int maxValue = dp[N][V];
+        System.out.println("最优装载 " + maxValue);
         int j = V;
         String numStr = "";
         for (int i = N; i > 0; i--) {
@@ -67,5 +68,16 @@ public class Complete {
             }
         }
         return dp[V];
+    }
+
+    public static void main(String[] args) {
+        //测试
+        int[] w1 = {2, 1, 3, 2, 4, 5, 3, 1};
+        int[] p1 = {13, 10, 24, 15, 28, 33, 20, 8};
+        int c1 = 12;
+        System.out.println(completePack(c1, w1.length, w1, p1));
+        System.out.println(completePack2(c1, w1.length, w1, p1));
+
+
     }
 }

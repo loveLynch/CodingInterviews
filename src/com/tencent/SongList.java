@@ -40,11 +40,11 @@ public class SongList {
     /**
      * 背包问题
      *
-     * @param k
-     * @param a
-     * @param x
-     * @param b
-     * @param y
+     * @param k 歌单长度
+     * @param a A类歌的长度
+     * @param x A类歌的数量
+     * @param b B类歌的长度
+     * @param y B类歌的数量
      * @return
      */
     private static int getMethodOfSong(int k, int a, int x, int b, int y) {
