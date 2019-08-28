@@ -2,30 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7313fac3-5b2a-44c7-9bc4-4bc1f4c42c29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/asm_3_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/cglib_2_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alibaba/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bashhash/ConsistentHash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bytedance/bishi825/Play2048.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bytedance/bishi825/getMaxCandy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdkandcglib/CGLibProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdkandcglib/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdkandcglib/JDKProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdkandcglib/UserManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/jdkandcglib/UserManagerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/providerandcustomer/Test1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/providerandcustomer/Test2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/providerandcustomer/Test3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/providerandcustomer/Test4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/singleton/Singleton1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/singleton/Singleton2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/singleton/Singleton3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/singleton/Singleton4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/singleton/Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/others/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/thread/MultiThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodingInterviews.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CodingInterviews.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/com/bytedance/arrayandsort/LongestConsecutiveArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingInterviews/com/bytedance/arrayandsort/LongestConsecutiveArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/com/bytedance/arrayandsort/MaxLengthOfArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingInterviews/com/bytedance/arrayandsort/MaxLengthOfArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/wangyi/_2018/LightNum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bytedance/arrayandsort/LongestConsecutiveArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytedance/arrayandsort/LongestConsecutiveArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxLengthOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxLengthOfArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wangyi/_2018/LightNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/wangyi/LightNum.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,60 +32,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/providerandcustomer/Test1.java">
+        <entry file="file://$PROJECT_DIR$/src/com/alibaba/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/providerandcustomer/Test2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="68" column="17" selection-start-line="68" selection-start-column="17" selection-end-line="68" selection-end-column="17" />
+            <state relative-caret-position="744">
+              <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/providerandcustomer/Test3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/providerandcustomer/Test4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-769">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bashhash/ConsistentHash.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1582">
-              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#498#510#0" expanded="true" />
-                <element signature="e#2003#2004#0" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#2227#2236#0" expanded="true" />
-                <element signature="e#2940#2948#0" expanded="true" />
-                <element signature="e#3091#3099#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,54 +46,95 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/JDKProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="340">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1106#1107#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/CGLibProxy.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thread/MultiThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="204">
+              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/UserManager.java">
+        <entry file="file://$PROJECT_DIR$/src/com/thread/DeadLockDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="680">
+              <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/LongestConsecutiveArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxLengthOfArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/UserManagerImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="51">
+                <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/Client.java">
+        <entry file="file://$PROJECT_DIR$/src/com/bashhash/ConsistentHash.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="1785">
+              <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/others/LRUCache.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="507" column="39" selection-start-line="507" selection-start-column="22" selection-end-line="507" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -171,7 +151,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>str</find>
       <find>快</find>
       <find>二叉树</find>
       <find>反转</find>
@@ -201,6 +180,7 @@
       <find>最大公约</find>
       <find>swap</find>
       <find>SingleTon</find>
+      <find>remove</find>
     </findStrings>
     <replaceStrings>
       <replace>Integter</replace>
@@ -229,14 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/tencent/EatChocolate.java" />
-        <option value="$PROJECT_DIR$/src/com/tencent/Drawer.java" />
-        <option value="$PROJECT_DIR$/src/com/others/pack/psack/ZeroOnePackage.java" />
-        <option value="$PROJECT_DIR$/src/com/others/ZeroOnePackage.java" />
-        <option value="$PROJECT_DIR$/src/com/others/pack/ZeroOnePackage.java" />
-        <option value="$PROJECT_DIR$/src/com/others/pack/ManyPack.java" />
-        <option value="$PROJECT_DIR$/src/com/others/pack/psack/Complete.java" />
-        <option value="$PROJECT_DIR$/src/com/tencent/SongList.java" />
         <option value="$PROJECT_DIR$/src/com/tencent/MaxTaskAndProfit.java" />
         <option value="$PROJECT_DIR$/src/com/others/pack/OneZeroPack.java" />
         <option value="$PROJECT_DIR$/src/com/others/pack/CompletePack.java" />
@@ -280,13 +252,21 @@
         <option value="$PROJECT_DIR$/src/com/jdkandcglib/Clienr.java" />
         <option value="$PROJECT_DIR$/src/com/jdkandcglib/Client.java" />
         <option value="$PROJECT_DIR$/src/com/jdkandcglib/UserManagerImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/wangyi/LightNum.java" />
+        <option value="$PROJECT_DIR$/src/com/others/LRU.java" />
+        <option value="$PROJECT_DIR$/src/com/others/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/com/thread/MultiThread.java" />
+        <option value="$PROJECT_DIR$/src/com/thread/DeadLockDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/bytedance/arrayandsort/LongestConsecutiveArray.java" />
+        <option value="$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxLengthOfArray.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="52" />
+    <option name="y" value="348" />
     <option name="width" value="1440" />
-    <option name="height" value="599" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -295,6 +275,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -305,11 +286,6 @@
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -317,41 +293,45 @@
               <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkandcglib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkandcglib" type="462c0819:PsiDirectoryNode" />
-              <item name="CGLibProxy" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkandcglib" type="462c0819:PsiDirectoryNode" />
-              <item name="Client" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="jdkandcglib" type="462c0819:PsiDirectoryNode" />
-              <item name="UserManagerImpl" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="LinkedHashMap" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
@@ -361,14 +341,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566906536934" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566984156521" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -407,20 +386,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.MaxLengthOfArray">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jdkandcglib.Client" />
+    <configuration name="DeadLockDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.DeadLockDemo" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jdkandcglib.*" />
+          <option name="PATTERN" value="com.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -428,13 +407,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConsistentHash" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.bashhash.ConsistentHash" />
+    <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.others.LRUCache" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bashhash.*" />
+          <option name="PATTERN" value="com.others.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,13 +421,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.providerandcustomer.Test2" />
+    <configuration name="LongestConsecutiveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.arrayandsort.LongestConsecutiveArray" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.providerandcustomer.*" />
+          <option name="PATTERN" value="com.bytedance.arrayandsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,13 +435,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.providerandcustomer.Test3" />
+    <configuration name="MaxLengthOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.bytedance.arrayandsort.MaxLengthOfArray" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.providerandcustomer.*" />
+          <option name="PATTERN" value="com.bytedance.arrayandsort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -470,13 +449,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.providerandcustomer.Test4" />
+    <configuration name="MultiThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.thread.MultiThread" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.providerandcustomer.*" />
+          <option name="PATTERN" value="com.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,19 +495,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test2" />
-      <item itemvalue="Application.Test3" />
-      <item itemvalue="Application.Test4" />
-      <item itemvalue="Application.ConsistentHash" />
-      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.LRUCache" />
+      <item itemvalue="Application.MultiThread" />
+      <item itemvalue="Application.DeadLockDemo" />
+      <item itemvalue="Application.LongestConsecutiveArray" />
+      <item itemvalue="Application.MaxLengthOfArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.ConsistentHash" />
-        <item itemvalue="Application.Test4" />
-        <item itemvalue="Application.Test3" />
-        <item itemvalue="Application.Test2" />
+        <item itemvalue="Application.MaxLengthOfArray" />
+        <item itemvalue="Application.LongestConsecutiveArray" />
+        <item itemvalue="Application.DeadLockDemo" />
+        <item itemvalue="Application.MultiThread" />
+        <item itemvalue="Application.LRUCache" />
       </list>
     </recent_temporary>
   </component>
@@ -701,18 +680,19 @@
       <workItem from="1566786397772" duration="4563000" />
       <workItem from="1566819345988" duration="1948000" />
       <workItem from="1566868742204" duration="1035000" />
-      <workItem from="1566869938737" duration="5097000" />
+      <workItem from="1566869938737" duration="7608000" />
+      <workItem from="1566956864040" duration="4264000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="581217000" />
+    <option name="totallyTimeSpent" value="587992000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35622317" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36123034" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -792,77 +772,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="712" column="19" selection-start-line="712" selection-start-column="19" selection-end-line="712" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huawei/bishi8_21/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huawei/bishi8_21/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huawei/bishi8_21/MaxNum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-            <element signature="e#1737#1738#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/huawei/bishi8_21/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lynch/ReconstructBinaryTree_7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jd/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/meituan/Main1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2703">
-          <caret line="159" column="6" selection-start-line="159" selection-start-column="6" selection-end-line="164" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -891,13 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="68" column="11" selection-start-line="60" selection-start-column="7" selection-end-line="68" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jd/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
         </state>
       </provider>
     </entry>
@@ -1085,16 +987,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/alibaba/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1302">
-          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/singleton/Singleton3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1136,34 +1028,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bashhash/ConsistentHash.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1582">
-          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#498#510#0" expanded="true" />
-            <element signature="e#2003#2004#0" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2227#2236#0" expanded="true" />
-            <element signature="e#2940#2948#0" expanded="true" />
-            <element signature="e#3091#3099#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/JDKProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1106#1107#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/UserManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1171,29 +1035,139 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/UserManagerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jd/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-54">
+          <caret line="57" column="59" selection-start-line="57" selection-start-column="59" selection-end-line="57" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jd/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/wangyi/LightNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/Client.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="238">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/CGLibProxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/UserManagerImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/com/others/LRUCache.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="459">
+          <caret line="27" column="27" lean-forward="true" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="507" column="39" selection-start-line="507" selection-start-column="22" selection-end-line="507" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/alibaba/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="123" column="9" selection-start-line="123" selection-start-column="9" selection-end-line="123" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/jdkandcglib/JDKProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thread/MultiThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thread/DeadLockDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="12" lean-forward="true" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/LongestConsecutiveArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxLengthOfArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="22" column="23" lean-forward="true" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bashhash/ConsistentHash.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1785">
+          <caret line="107" column="36" selection-start-line="107" selection-start-column="36" selection-end-line="107" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="51">
+            <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
