@@ -3,6 +3,7 @@ package com.tencent.bishi;
 import java.util.LinkedList;
 import java.util.Scanner;
 import java.lang.StringBuilder;
+import java.util.Stack;
 
 /**
  * Created by lynch on 2019-08-17. <br>
@@ -17,7 +18,7 @@ public class Main1 {
     }
 
     private static String getUnzip(String string) {
-        LinkedList<String> inStack = new LinkedList<>();
+        Stack<String> inStack = new Stack<>();
         StringBuilder result = new StringBuilder();
         StringBuilder strTmp;
         for (int i = 0; i < string.length(); ++i) {
@@ -45,7 +46,6 @@ public class Main1 {
             for (int j = 0; j < num; ++j) result.append(strTmp.toString());
             inStack.push(result.toString());
         }
-
         result = new StringBuilder();
         while (inStack.size() != 0) {
             result.insert(0, inStack.pop());

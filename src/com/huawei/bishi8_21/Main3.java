@@ -27,16 +27,20 @@ public class Main3 {
         }
         ArrayList<String> receive = new ArrayList<>();
         receive.add(firstName);
-        //方法一：通过移除群的方式方法调用
+        //方法一：通过移除群的方式方法调用，复杂度较低
         getCountReceiveNum(groupList, receive, groupList.size());
-        System.out.println(receive.size());
+        if (receive.size() > 1)
+            System.out.println(receive.size());
+        else {
+            System.out.println(receive.size() - 1);//只有自己不能转发
+        }
 
-        //方法二：设置标志位时的方法调用
+        //方法二：设置标志位时的方法调用，复杂度较高点
         ArrayList<ArrayList<String>> groupListClone = (ArrayList<ArrayList<String>>) groupList.clone();
         for (ArrayList<String> group : groupListClone)
             group.add("No");//设置访问标志位
         getCountReceive(groupListClone, receive, 0);
-        System.out.println(receive.size() - 1);//去掉"Yes"
+        System.out.println(receive.size() - 1);//去掉"Yes"或只有自己不能转发
 
 
     }
