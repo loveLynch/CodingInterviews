@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7313fac3-5b2a-44c7-9bc4-4bc1f4c42c29" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/aqs/CountDownLatchExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/aqs/SemaphoreExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/thread/CountNum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/com/aqs/CountDownLatchExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingInterviews/com/aqs/CountDownLatchExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/com/tencent/bishi91/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingInterviews/com/tencent/bishi91/Main3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CodingInterviews/com/tencent/bishi91/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CodingInterviews/com/tencent/bishi91/Main5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,18 +27,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxIsland.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/leetcode/NumOfIslands.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-803">
+            <state relative-caret-position="102">
               <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
             </state>
           </provider>
@@ -48,11 +38,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/thread/CountNum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="646">
               <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="25" column="23" selection-start-line="15" selection-end-line="16" selection-end-column="67" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lynch/CutRope_14.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aqs/SemaphoreExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="306">
               <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,7 +89,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aqs/CountDownLatchExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="357">
               <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -85,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="221">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -100,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -124,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>11000000</find>
       <find>11000001</find>
       <find>10000011</find>
       <find>10000010</find>
@@ -154,6 +169,7 @@
       <find>island</find>
       <find>Island</find>
       <find>岛</find>
+      <find>绳子</find>
     </findStrings>
     <replaceStrings>
       <replace>Integter</replace>
@@ -173,11 +189,11 @@
       <dir>$PROJECT_DIR$/src/com/lynch/structure</dir>
       <dir>$PROJECT_DIR$</dir>
       <dir>$PROJECT_DIR$/src/com/wangyi</dir>
-      <dir>$PROJECT_DIR$/src/com/lynch</dir>
       <dir>$PROJECT_DIR$/src/com/others/pack</dir>
       <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/com/thread</dir>
       <dir>$PROJECT_DIR$/src/com/bytedance</dir>
+      <dir>$PROJECT_DIR$/src/com/lynch</dir>
       <dir>$PROJECT_DIR$/src/com</dir>
     </dirStrings>
   </component>
@@ -187,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/others/LRU.java" />
         <option value="$PROJECT_DIR$/src/com/others/LRUCache.java" />
         <option value="$PROJECT_DIR$/src/com/thread/MultiThread.java" />
         <option value="$PROJECT_DIR$/src/com/thread/DeadLockDemo.java" />
@@ -223,8 +238,6 @@
         <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main.java" />
         <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main2.java" />
         <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main4_1.java" />
-        <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java" />
-        <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java" />
         <option value="$PROJECT_DIR$/src/com/Des.java" />
         <option value="$PROJECT_DIR$/src/com/DesIm.java" />
         <option value="$PROJECT_DIR$/src/com/others/StringTest.java" />
@@ -238,11 +251,14 @@
         <option value="$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample.java" />
         <option value="$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample2.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/com/lynch/CutRope_14.java" />
+        <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java" />
+        <option value="$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="462" />
+    <option name="x" value="97" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="817" />
@@ -254,8 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,23 +293,40 @@
               <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aqs" type="462c0819:PsiDirectoryNode" />
+              <item name="tencent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aqs" type="462c0819:PsiDirectoryNode" />
-              <item name="CyclicBarrierExample1" type="1a9f42e2:ClassTreeNode" />
+              <item name="tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="bishi91" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
               <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="aqs" type="462c0819:PsiDirectoryNode" />
-              <item name="CyclicBarrierExample2" type="1a9f42e2:ClassTreeNode" />
+              <item name="tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="bishi91" type="462c0819:PsiDirectoryNode" />
+              <item name="Main3" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="tencent" type="462c0819:PsiDirectoryNode" />
+              <item name="bishi91" type="462c0819:PsiDirectoryNode" />
+              <item name="Main5" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodingInterviews" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CodingInterviews" type="b2602c69:ProjectViewProjectNode" />
@@ -361,12 +392,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567427650286" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567481210012" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -407,7 +440,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountDownLatchExample">
+  <component name="RunManager" selected="Application.Main3">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -428,13 +461,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.CountNum" />
+    <configuration name="CutRope_14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lynch.CutRope_14" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.*" />
+          <option name="PATTERN" value="com.lynch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -442,13 +475,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.MultiThread3" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tencent.bishi91.Main3" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.*" />
+          <option name="PATTERN" value="com.tencent.bishi91.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -456,13 +489,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThread4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.thread.MultiThread4" />
+    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.tencent.bishi91.Main5" />
       <module name="CodingInterviews" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.thread.*" />
+          <option name="PATTERN" value="com.tencent.bishi91.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -516,19 +549,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MultiThread3" />
-      <item itemvalue="Application.MultiThread4" />
-      <item itemvalue="Application.CountNum" />
       <item itemvalue="Application.SemaphoreExample1" />
       <item itemvalue="Application.CountDownLatchExample" />
+      <item itemvalue="Application.Main3" />
+      <item itemvalue="Application.CutRope_14" />
+      <item itemvalue="Application.Main5" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main3" />
+        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.CutRope_14" />
         <item itemvalue="Application.CountDownLatchExample" />
         <item itemvalue="Application.SemaphoreExample1" />
-        <item itemvalue="Application.CountNum" />
-        <item itemvalue="Application.MultiThread4" />
-        <item itemvalue="Application.MultiThread3" />
       </list>
     </recent_temporary>
   </component>
@@ -708,17 +741,19 @@
       <workItem from="1567091401379" duration="29355000" />
       <workItem from="1567178775086" duration="16000" />
       <workItem from="1567218273198" duration="47061000" />
+      <workItem from="1567429248657" duration="4364000" />
+      <workItem from="1567480933876" duration="200000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="684226000" />
+    <option name="totallyTimeSpent" value="688790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4041488" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4155937" />
       <window_info id="Structure" order="1" weight="0.24964234" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="3" />
@@ -728,7 +763,7 @@
       <window_info id="Alibaba Cloud Explorer" order="7" weight="0.3297568" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32889965" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43493977" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24939759" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.413253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -798,13 +833,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi/Main5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/Gas.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-113">
@@ -1058,59 +1086,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Des.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#263#264#0" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/DesIm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#202#203#0" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#329#330#0" expanded="true" />
-            <element signature="e#370#371#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#478#479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Des.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/DesIm.java" />
     <entry file="file://$PROJECT_DIR$/src/com/others/StringTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -1168,32 +1145,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bytedance/arrayandsort/MaxIsland.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
+        <state relative-caret-position="663">
           <caret line="39" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/leetcode/NumOfIslands.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-803">
+        <state relative-caret-position="102">
           <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/thread/CountNum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="646">
           <caret line="40" column="23" selection-start-line="40" selection-start-column="23" selection-end-line="40" selection-end-column="23" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#244#245#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lynch/CutRope_14.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aqs/SemaphoreExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="306">
           <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1203,7 +1183,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aqs/CountDownLatchExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="357">
           <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1213,8 +1193,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/aqs/CyclicBarrierExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="221">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1232,6 +1212,23 @@
             <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="25" column="23" selection-start-line="15" selection-end-line="16" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/tencent/bishi91/Main5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
