@@ -39,8 +39,8 @@ public class CountNum implements Runnable {
 
 
     public static void main(String[] args) {
-        for (int i = 0; i < 10; i++) {
-            int lastNum = 10;
+        int lastNum = 10;
+        for (int i = 0; i < lastNum; i++) {
             CountNum thread = new CountNum(lastNum);
             Thread t = new Thread(thread);
             t.start();
