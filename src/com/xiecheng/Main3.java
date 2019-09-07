@@ -41,6 +41,52 @@ public class Main3 {
 
     }
 
+    static int schedule1(int m, int[] array) {
+        int sum = 0;
+        // 选择一个满足条件的步长，并先给出一个上界
+        int step = array.length / m;
+        if (array.length % m != 0)
+            ++step;
+        for (int i = 0; i < array.length; i += step) {
+            int s = 0;
+            for (int j = 0; j < step && i + j < array.length; ++j) {
+                s += array[i + j];
+            }
+            if (s > sum) sum = s;
+        }
+        // 二分查找得到最终解
+        int left = 0;
+        int right = sum;
+        while (left < right) {
+            int mid = left + (right - left) / 2;
+            if (match(array, m, mid)) {
+                right = mid;
+            } else {
+                left = mid + 1;
+            }
+        }
+        return right;
+    }
+
+    private static boolean match(int[] array, int m, int s) {
+        int left = 0;
+        int count = 0;
+        while (left < array.length) {
+            if (array[left] > s)
+                return false;
+            int s1 = s;
+            while (left < array.length && s1 - array[left] >= 0) {
+                s1 -= array[left];
+                ++left;
+            }
+            ++count;
+            if (count > m)
+                return false;
+        }
+        return true;
+    }
+
+
     /******************************结束写代码******************************/
 
 
@@ -52,7 +98,7 @@ public class Main3 {
         for (int i = 0; i < size; i++) {
             array[i] = in.nextInt();
         }
-        int res = schedule(m, array);
+        int res = schedule1(m, array);
         System.out.println(String.valueOf(res));
     }
 }
