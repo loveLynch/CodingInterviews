@@ -15,6 +15,7 @@ public class JDKProxy implements InvocationHandler {
 
     /**
      * 将目标对象传入进行代理
+     *
      * @param targetObject
      * @return
      */
@@ -23,11 +24,19 @@ public class JDKProxy implements InvocationHandler {
         return Proxy.newProxyInstance(targetObject.getClass().getClassLoader(),
                 targetObject.getClass().getInterfaces(), this);//返回代理对象
     }
+
+    /**
+     * @param proxy  cglib代理后的对象
+     * @param method 目标方法，调用该方法相当于直接调用目标方法
+     * @param args   目标方法的方法参数
+     * @return
+     * @throws Throwable
+     */
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
         checkPopedom();//一般我们进行逻辑处理的函数比如这个地方是模拟检查权限
         Object ret = null;      // 设置方法的返回值
-        ret  = method.invoke(targetObject, args);       //调用invoke方法，ret存储该方法的返回值
+        ret = method.invoke(targetObject, args);       //调用invoke方法，ret存储该方法的返回值
         return ret;
     }
 

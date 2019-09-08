@@ -14,28 +14,31 @@ public class Main {
     }
 
     private static int getCountReward1(int n) {
-        int noendB1C = 1;//统计前i-1个月，合格且有1个C,不以B结尾
+        int noCNoendB = 1;//统计前i-1个月，合格且不以B没有C
         int noCenb1B = 1; //统计前i-1个月，合格且一个B结尾没有C
         int noCenb2B = 0; //统计前i-1个月，合格且两个B结尾没有C
+        int hasCNoendB = 1;//统计前i-1个月，合格且有1个C,不以B结尾
         int hasCenb1B = 0; //统计前i-1个月，合格且一个B结尾有C
         int hasCenb2B = 0; //统计前i-1个月，合格且两个B结尾有C
-        int noCNoendB = 1;//统计前i-1个月，合格且不以B没有C
-        for (int i = 1; i < n; i++) {
-            int countNoendB1C = noendB1C + noCenb1B + noCenb2B + noCNoendB;//统计i个月，合格且有1个C,不以B结尾
-            int countHasCenb1B = noendB1C; //统计i个月，合格且一个B结尾
-            int countHasCenb2B = hasCenb1B; //统计i个月，合格且两个B结尾
+        for (int i = 0; i < n - 1; i++) {
             int countNoCNoendB = noCenb1B + noCenb2B + noCNoendB; //统计i个月，合格且不以B结尾无C
             int countNoCenb1B = noCNoendB;
             int countNoCenb2B = noCenb1B;
 
-            noendB1C = countNoendB1C;
+
+            int countHasCNoendB =  hasCNoendB + noCenb1B + noCenb2B + hasCenb1B + hasCenb2B + noCNoendB;//统计i个月，合格且有1个C,不以B结尾
+            int countHasCenb1B = hasCNoendB; //统计i个月，合格且一个B结尾
+            int countHasCenb2B = hasCenb1B; //统计i个月，合格且两个B结尾
+
+            noCNoendB = countNoCNoendB;
             noCenb1B = countNoCenb1B;
             noCenb2B = countNoCenb2B;
+            hasCNoendB = countHasCNoendB;
             hasCenb1B = countHasCenb1B;
             hasCenb2B = countHasCenb2B;
-            noCNoendB = countNoCNoendB;
+
         }
-        return noendB1C + noCenb1B + noCenb2B + hasCenb1B + hasCenb2B + noCNoendB;
+        return hasCNoendB + noCenb1B + noCenb2B + hasCenb1B + hasCenb2B + noCNoendB;
     }
 
     /**

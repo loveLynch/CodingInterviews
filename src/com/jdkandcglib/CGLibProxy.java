@@ -1,4 +1,5 @@
 package com.jdkandcglib;
+
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;
 import net.sf.cglib.proxy.MethodProxy;
@@ -22,6 +23,14 @@ public class CGLibProxy implements MethodInterceptor {
         return proxyObj;// 返回代理对象
     }
 
+    /**
+     * 拦截器的方法
+     *
+     * @param proxy       cglib代理后的对象
+     * @param method      目标方法，调用该方法相当于直接调用目标方法
+     * @param args        目标方法的方法参数
+     * @param methodProxy 代理方法，invokeSuper绑定的类是代理类，invoke绑定的类是目标类
+     */
     public Object intercept(Object proxy, Method method, Object[] args,
                             MethodProxy methodProxy) throws Throwable {
         Object obj = null;
