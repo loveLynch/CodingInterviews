@@ -18,20 +18,22 @@ import java.util.Scanner;
  * next[0] = -1。
  * 如果已知next[j] = k,如何求出next[j+1]呢?具体算法如下:
  * 1. 如果p[j] = p[k], 则next[j+1] = next[k] + 1;
- * 2.如果p[j] != p[k], 则令k=next[k],如果此时p[j]==p[k],则next[j+1]=k+1,如果不相等,则继续递归前缀索引,令 k=next[k],继续判断,直至k=-1(即k=next[0])或者p[j]=p[k]为止
+ * 2.如果p[j] != p[k], 则令k=next[k],如果此时p[j]==p[k],则next[j+1]=k+1,
+ * 如果不相等,则继续递归前缀索引,令 k=next[k],继续判断,直至k=-1(即k=next[0])或者p[j]=p[k]为止
  **/
 public class KMP {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String source = input.nextLine();
         String pattern = input.nextLine();
-        System.out.println(indexOf(source,pattern));
+        System.out.println(indexOf(source, pattern));
 
     }
 
     /**
      * 获取KMP算法中pattern字符串对应的next数组
-     * @param p  模式字符串对应的字符数组
+     *
+     * @param p 模式字符串对应的字符数组
      * @return
      */
     public static int[] getNext(char[] p) {
@@ -80,6 +82,9 @@ public class KMP {
         int sLen = src.length;
         int pLen = ptn.length;
         int[] next = getNext(ptn);
+        for (int s = 0; s < next.length; s++)
+            System.out.print(next[s] + " ");
+        System.out.println();
         while (i < sLen && j < pLen) {
             // 如果j = -1,或者当前字符匹配成功(src[i] = ptn[j]),都让i++,j++
             if (j == -1 || src[i] == ptn[j]) {
