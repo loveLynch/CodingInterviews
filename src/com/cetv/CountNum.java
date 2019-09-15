@@ -1,4 +1,4 @@
-package com.cvte;
+package com.cetv;
 
 import java.util.Scanner;
 

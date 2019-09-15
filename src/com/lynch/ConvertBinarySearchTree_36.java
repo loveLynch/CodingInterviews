@@ -79,9 +79,10 @@ public class ConvertBinarySearchTree_36 {
         //打印注意陷入死循环
         BinaryTreeNode<Integer> temp = result;
         while (temp != null) {
-            temp = temp.right;
             if (temp != null)
                 System.out.print(temp.val + "\t");
+            temp = temp.right;
+
         }
     }
 }

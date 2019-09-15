@@ -1,5 +1,8 @@
 package com.bytedance.linkedlist;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * @author Lynch
  * @date 2019/8/8 17:38
@@ -51,10 +54,68 @@ package com.bytedance.linkedlist;
  */
 public class IntersectionNode {
     public static void main(String[] args) {
+        ListNode inter = new ListNode(8);
+
+        ListNode headA = new ListNode(4);
+        ListNode a1 = new ListNode(1);
+        ListNode a3 = new ListNode(4);
+        ListNode a4 = new ListNode(5);
+        headA.next = a1;
+        a1.next = inter;
+        inter.next = a3;
+        a3.next = a4;
+        ListNode headB = new ListNode(5);
+        ListNode b1 = new ListNode(0);
+        ListNode b2 = new ListNode(1);
+        ListNode b4 = new ListNode(4);
+        ListNode b5 = new ListNode(5);
+        headB.next = b1;
+        b1.next = b2;
+        b2.next = inter;
+        inter.next = b4;
+        b4.next = b5;
+        System.out.println(getIntersectionNode1(headA, headB).val);
+        System.out.println(getIntersectionNode2(headA, headB).val);
 
     }
 
-    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    /**
+     * 利用set集合存储a链表的地址，再遍历b链表每个节点，碰到相等的
+     * 就返回
+     *
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public static ListNode getIntersectionNode1(ListNode headA, ListNode headB) {
+        Set<ListNode> headASet = new HashSet<>();
+        while (headA != null) {
+            headASet.add(headA);
+            headA = headA.next;
+        }
+        while (headB != null) {
+            if (headASet.contains(headB))
+                return headB;
+            headB = headB.next;
+        }
         return null;
+    }
+
+    /**
+     * 利用两个指针分别指向a，b的头，分别遍历a，b中所有不重复的节点，那么，两个指针走的长度肯定是相等的
+     * @param headA
+     * @param headB
+     * @return
+     */
+    public static ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        if(headA==null||headB==null) {
+            return null;
+        }
+        ListNode a = headA,b = headB;
+        while(a!=b) {
+            a = a==null?headB:a.next;
+            b = b==null?headA:b.next;
+        }
+        return a;
     }
 }
