@@ -38,9 +38,9 @@ public class MirrorOfBinaryTree_27 {
         pNode.left = pNode.right;
         pNode.right = pTemp;
         //不用再去判断左右节点，因为下面这个递归，左节点又是根节点，就判断了左是否为空
-        mirrorRecursively(pNode.left);
+        mirrorRecursivelySim(pNode.left);
 
-        mirrorRecursively(pNode.right);
+        mirrorRecursivelySim(pNode.right);
 
     }
 
@@ -64,9 +64,10 @@ public class MirrorOfBinaryTree_27 {
 
         System.out.println(root);
 
-//        mirrorRecursively(root);
-        mirrorRecursivelySim(root);
+        mirrorRecursively(root);
+        System.out.println(root);
 
+        mirrorRecursivelySim(root);
         System.out.println(root);
 
     }

@@ -19,6 +19,8 @@ public class Tests {
         print(BubbleSort.bubbleSort(array));
         print(SelectionSort.selectionSort(array));
         print(InsertionSort.insertionSort(array));
+        print(QuickSort.quickSort(array, 0, array.length - 1));
+        print(ShellSort.shellSort(array));
     }
 
     public static void print(int[] array) {
