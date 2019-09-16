@@ -25,18 +25,19 @@ public class Main3 {
         s1 = sumOfLeft(nums, mid);
         s2 = sumOfRight(nums, mid);
         int cha = Math.abs(s1 - s2);
+        mid++;
         while (mid < nums.length) {
-            mid++;
             s1 = sumOfLeft(nums, mid);
             s2 = sumOfRight(nums, mid);
             if (cha > Math.abs(s1 - s2)) {
                 cha = Math.abs(s1 - s2);
                 mid++;
             } else {
+                mid--;
                 break;
             }
         }
-        return Math.abs(sumOfLeft(nums, mid - 1) - sumOfRight(nums, mid - 1));
+        return Math.abs(sumOfLeft(nums, mid) - sumOfRight(nums, mid));
     }
 
     private static int sumOfLeft(int[] nums, int mid) {
