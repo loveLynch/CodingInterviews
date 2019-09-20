@@ -51,7 +51,33 @@ public class QuickSort {
             }
         return smallIndex;
     }
+    public static void fristBaseValue(int[] arr, int frist, int last) {
+        if (frist > last) return;//递归出口
+        int i = frist;
+        int j = last;
+        int temp = arr[frist];
+        while (i != j) {
+            while (arr[j] >= temp && j > i) {
+                j--;
+            }
+            while (arr[i] <= temp && i < j) {
+                i++;
+            }
+            if (i < j) {
+                int t = arr[i];
+                arr[i] = arr[j];
+                arr[j] = t;
+            }
+        }
+        if (i == j) {
+            arr[frist] = arr[i];
+            arr[i] = temp;
+        }
 
+        fristBaseValue(arr, frist, i - 1);
+        fristBaseValue(arr, i + 1, last);
+
+    }
     /**
      * 交换数组内两个元素
      *

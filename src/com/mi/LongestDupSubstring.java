@@ -16,7 +16,7 @@ public class LongestDupSubstring {
     }
 
     /**
-     * 暴露求解，用短的去匹配长的
+     * 暴力求解，用短的去匹配长的
      *
      * @param s1
      * @param s2
